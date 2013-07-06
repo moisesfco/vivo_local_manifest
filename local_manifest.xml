@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="packages/apps/Camera" name="Andromadus/android_packages_apps_Camera" revision="cm10.1" />
     <project path="kernel/htc/vivo" name="szezso/T.E.S.C.O-kernel_vivo" revision="master" />
     <project path="device/htc/vivo" name="szezso/android_device_htc_vivo" revision="cm-10.1" />
     <project path="device/htc/msm7x30-common" name="szezso/htc_msm7x30-common-vivo" revision="cm-10.1" />
