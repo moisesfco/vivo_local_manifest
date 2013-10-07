@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
+
     <project path="kernel/htc/vivo" name="szezso/T.E.S.C.O-kernel_vivo" revision="master" />
     <project path="device/htc/vivo" name="szezso/android_device_htc_vivo" revision="cm-10.2" />
     <project path="device/htc/msm7x30-common" name="szezso/htc_msm7x30-common-vivo" revision="cm-10.2" />
-    <project path="external/kernel-headers" name="szezso/android_external_kernel-headers" revision="cm-10.2" />
     <project path="vendor/htc/vivo" name="szezso/proprietary_vendor_vivo" revision="cm-10.2" />
     <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" revision="gingerbread" />
-    <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="github" revision="master" />
 
     <remove-project name="CyanogenMod/android_frameworks_av" />
-    <remove-project name="CyanogenMod/android_external_kernel-headers" />
-  <project path="frameworks/av" name="legaCyMod/android_frameworks_av" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" />
+    <project path="frameworks/av" name="legaCyMod/android_frameworks_av" remote="github" revision="cm-10.2" />
+    <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
+    <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" />
+    <project path="hardware/qcom/audio-caf" name="szezso/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2" />
 </manifest>
