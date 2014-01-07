@@ -9,6 +9,6 @@
     <project path="vendor/htc/vivo" name="szezso/proprietary_vendor_vivo" revision="cm-11.0-ION" />
     <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" revision="gingerbread" />
     <project path="hardware/qcom/display-legacy" name="szezso/android_hardware_qcom_display-legacy" remote="github" revision="kitkat" />
-    <project path="hardware/qcom/media-legacy" name="Evervolv/android_hardware_qcom_media-legacy" remote="github" revision="kitkat-staging" />
-    <project path="hardware/qcom/audio-caf" name="Evervolv/android_hardware_qcom_audio-caf" remote="github" revision="kitkat" />
+    <project path="hardware/qcom/media-legacy" name="szezso/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/audio-caf" name="szezso/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
 </manifest>
