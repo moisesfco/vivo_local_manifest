@@ -10,8 +10,9 @@
     <project path="device/htc/msm7x30-common" name="szezso/htc_msm7x30-common-vivo" revision="cm-11.0" />
     <project path="vendor/htc/vivo" name="szezso/proprietary_vendor_vivo" revision="cm-11.0" />
     <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" revision="gingerbread" />
-    <project path="hardware/qcom/display-legacy" name="szezso/android_hardware_qcom_display-legacy" remote="github" revision="kitkat" />
+    <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
     <project path="hardware/qcom/media-legacy" name="szezso/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
     <project path="hardware/qcom/audio-caf" name="szezso/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
     <project path="packages/apps/Camera2" name="szezso/android_packages_apps_Camera2" revision="cm-11.0" />
+    <project path="external/webkit" name="legaCyMod/android_external_webkit" revision="cm-11.0" />
 </manifest>
