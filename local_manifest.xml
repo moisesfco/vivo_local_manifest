@@ -4,6 +4,7 @@
     <remove-project name="CyanogenMod/android_frameworks_av" />
     <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
     <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
+    <remove-project name="CyanogenMod/android_packages_apps_Torch" />
     <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="cm-11.0" />
     <project path="kernel/htc/vivo" name="szezso/T.E.S.C.O-kernel_vivo" revision="master" />
     <project path="device/htc/vivo" name="szezso/android_device_htc_vivo" revision="cm-11.0-ION" />
@@ -14,4 +15,5 @@
     <project path="hardware/qcom/media-legacy" name="szezso/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
     <project path="hardware/qcom/audio-caf" name="szezso/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
     <project path="packages/apps/Camera2" name="Mustaavalkosta/android_packages_apps_Camera2" revision="cm-11.0" />
+    <project path="packages/apps/Torch" name="Mustaavalkosta/android_packages_apps_Torch" revision="cm-11.0" />
 </manifest>
